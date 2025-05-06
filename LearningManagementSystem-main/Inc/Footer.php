@@ -31,9 +31,9 @@
         <div class="footer__4">
             <h4>Contact Us</h4>
             <div>
-                <p>+9411-2324345</p>
+                <p>256251351861</p>
                 <br>
-                <p>Info@Imperial@gmail.com</p>
+                <p>kumkumsarma@gmail.com</p>
             </div>
 
             <ul class="footer__socials">
@@ -46,7 +46,7 @@
 
     </div>
     <div class="footer__copyright">
-            <small>Copyright &copy; Imperial Academy</small>
+            <small>Copyright &copy; career point university</small>
         </div>
 </footer>    
 </body>

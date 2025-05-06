@@ -15,7 +15,7 @@ $_SESSION["course_id"]=$cid;
 if(isset($_REQUEST['view'])){
     $sql="SELECT * FROM courseorder WHERE stu_email='$stu_email' && course_id='$cid'";
     $result=mysqli_query($conn,$sql);
-    if(mysqli_num_rows($result)>0){
+    if(mysqli_num_rows(result: $result)>0){
         echo "<script>setTimeout(()=>{window.location.href='Users/MyCourse.php';},0);</script>";
         
     }else{
@@ -42,7 +42,7 @@ if(isset($_REQUEST['view'])){
             <div class="c-name">
                 <h3><?php echo $row['course_name'] ?></h3>
             </div>
-            <span class="price">&#36;<?php echo $row['course_price'] ?></span>
+            <span class="price">&#8377;<?php echo $row['course_price'] ?></span>
         </div>
         <h3>Instructor Name</h3>
         <div class="tutor">

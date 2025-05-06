@@ -36,7 +36,7 @@ include_once("DB_Files/db.php");
                 <div class="course__info">
                 <h3 style="text-align: start;">' . $row['course_name'] . '</h3>
                 <h5 style="text-align: start; margin-top: 10px;">' . $row['course_author'] . '</h5>
-                <h4 style="text-align: start; margin-top: 10px;">&#36;' . $row['course_price'] . '</h4>
+                <h4 style="text-align: start; margin-top: 10px;">&#8377;' . $row['course_price']. '</h4>
                 <br>
                 <a href="CourseDetails.php?course_id=' . $course_id . '">
                 <button class="button">Learn More

@@ -31,15 +31,15 @@ if (isset($_REQUEST['sent'])) {
             <ul class="contact__details">
                 <li>
                 <i class="uil uil-phone-alt"></i>
-                <h5>+9411-2324345</h5>
+                <h5>912324345</h5>
                 </li>
                 <li>
                 <i class="uil uil-envelope-check"></i>
-                <h5>Info@Imperial@gmail.com</h5>
+                <h5>kumkumsharma1058@gmail.com</h5>
                 </li>
                 <li>
                 <i class="uil uil-location-point"></i>
-                <h5>Sri Lanka</h5>
+                <h5>baran</h5>
                 </li>
             </ul>
             <ul class="contact__socials">
